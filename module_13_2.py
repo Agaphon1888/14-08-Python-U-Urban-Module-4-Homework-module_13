@@ -19,7 +19,7 @@ dp = Dispatcher(bot, storage=MemoryStorage())
 
 @dp.message_handler(commands=['start'])
 async def start(message):
-    print("Привет! Я бот помогающий твоему здоровью.")
+    print("Привет! Я - бот,  помогающий твоему здоровью.")
     await message.reply("Привет! Я - бот,  помогающий твоему здоровью.")  # Отправляем ответ пользователю
 
 @dp.message_handler()
